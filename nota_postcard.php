@@ -138,7 +138,7 @@ unset($_SESSION['promo_bonus']);
             <p>IG: @authormotret | theauthor12@gmail.com</p>
         </div>
 
-        <a href="index_postcard.php" class="btn-home">Kembali ke Katalog</a>
+        <a href="index.php" class="btn-home">Kembali ke Katalog</a>
     </div>
 
 </body>
