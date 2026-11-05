@@ -6,7 +6,7 @@ if (isset($_GET['clear'])) {
     unset($_SESSION['cart']);
     unset($_SESSION['promo_diskon']);
     unset($_SESSION['promo_bonus']);
-    header("Location: index_postcard.php");
+    header("Location: index.php");
     exit();
 }
 
@@ -89,7 +89,7 @@ $total_akhir = $subtotal - $diskon;
         <?php if (empty($cart)) { ?>
             <p style="text-align:center; padding: 40px 0; color: #888;">Keranjang belanja kosong.</p>
             <div class="action-btns">
-                <a href="index_postcard.php" class="btn btn-back" style="flex:1; margin:0;">Kembali ke Katalog</a>
+                <a href="index.php" class="btn btn-back" style="flex:1; margin:0;">Kembali ke Katalog</a>
             </div>
         <?php } else { ?>
             <table>
